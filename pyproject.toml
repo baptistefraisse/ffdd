@@ -1,0 +1,27 @@
+[project]
+name = "ffdd"
+version = "0.1.0"
+description = "Fission Fragments Decay for Dummies"
+authors = [
+    { name="Baptiste Fraïsse", email="fraisse@cua.edu" }
+]
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.8"
+
+[project.urls]
+"Homepage" = "https://github.com/baptistefraisse/ffdd"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+dependencies = [
+    "numpy>=2.3.2",
+    "matplotlib>=3.10.5",
+    "pandas>=2.3.1",
+    "openmc>=0.13.3"
+]
+
+[tool.setuptools]
+packages = ["ffdd"]

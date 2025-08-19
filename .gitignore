@@ -1,0 +1,9 @@
+__pycache__/
+
+*.png
+
+requirements.txt
+mkdocs.yml
+
+archives/
+docs/
