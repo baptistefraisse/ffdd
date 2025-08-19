@@ -12,9 +12,9 @@ While the toolbox captures key features of fission fragment decay, **many advanc
 
 ## Quick start
 
-Full documentation (installation, quick start, and concepts) is available on: http://127.0.0.1:8000/ffdd/.
+Full documentation (installation, quick start, and concepts) is available on: http://127.0.0.1:8000/ffdd/
 
-Clone the repository and install in editable mode (requires Python ≥3.10):
+Clone the repository and install in editable mode:
 
 ```bash
 git clone https://github.com/baptistefraisse/ffdd.git
