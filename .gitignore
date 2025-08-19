@@ -1,9 +1,14 @@
 __pycache__/
 
+.DS_Store
+
 *.png
 
 requirements.txt
 mkdocs.yml
 
 archives/
+build/
 docs/
+env/
+venv/
