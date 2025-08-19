@@ -1,6 +1,8 @@
 # **FFDD: Fission Fragments Decay for Dummies**  
 
-It is often said that the discovery of nuclear fission in 1939 changed the course of history. But the true breakthrough was the realization that fission releases neutrons, unlocking the possibility of self-sustaining chain reactions and nuclear reactors. This raises a fundamental question: Why does nuclear fission release neutrons at all?
+It is often said that the discovery of nuclear fission in 1939 changed the course of history. But the true breakthrough was the realization that fission releases neutrons, unlocking the possibility of self-sustaining chain reactions and nuclear reactors. 
+
+This raises a fundamental question: Why does nuclear fission release neutrons at all?
 
 ## **Scope and disclaimer**  
 
