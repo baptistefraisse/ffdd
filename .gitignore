@@ -11,6 +11,7 @@ mkdocs.yml
 archives/
 build/
 docs/
+site/
 env/
 venv/
 ffdd.egg-info/
