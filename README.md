@@ -4,7 +4,7 @@ It is often said that the discovery of nuclear fission, in 1939, changed the cou
 
 This raises a fundamental question: Why does nuclear fission release neutrons at all?
 
-Full FFDD documentation (installation, quick start, and concepts) is available on: https://baptistefraisse.github.io/ffdd/
+FFDD documentation (installation, quick start, and concepts) is available on: https://baptistefraisse.github.io/ffdd/
 
 ## **Scope and disclaimer**  
 
