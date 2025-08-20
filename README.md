@@ -2,9 +2,9 @@
 
 It is often said that the discovery of nuclear fission, in 1939, changed the course of human history. But the true breakthrough was the realization that fission releases neutrons, unlocking the possibility of self-sustaining chain reactions and nuclear reactors. 
 
-This raises a fundamental question: Why does nuclear fission release neutrons at all?
+This raises a fundamental question: **Why does nuclear fission release neutrons at all?**
 
-**FFDD** is a lightweight and educational toolbox designed to **simulate neutron emission in fission**. Its primary purpose is **pedagogical**: it aims to help physics students understand the basic mechanisms behind neutron emissions in nuclear fission, by enabling them to perform **simple but reasonably accurate predictions fission fragments decay**.
+**FFDD** is a lightweight and educational toolbox designed to **simulate neutron emission in fission**. Its primary purpose is **pedagogical**: it aims to help physics students understand the basic mechanisms behind neutron emissions in nuclear fission, by enabling them to perform **simple but reasonably accurate predictions of neutron multiplicity**.
 
 
 FFDD documentation (installation, quick start, and concepts) is available on: https://baptistefraisse.github.io/ffdd/
