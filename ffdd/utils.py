@@ -9,7 +9,7 @@ NEUTRON_MASS = 939.56542194 # MeV
 # available fissile target in FFDD
 
 fiss_z_to_name = {
-    90: "U",
+    90: "Th",
     91: "Pa",
     92: "U",
     93: "Np",
@@ -18,8 +18,6 @@ fiss_z_to_name = {
     96: "Cm",
     97: "Bk",
     98: "Cf",
-    99: "Es",
-    100: "Fm",
 }
 
 # periodic table dict

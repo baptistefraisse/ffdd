@@ -9,6 +9,11 @@ import numpy as np
 from collections import defaultdict
 from ffdd.utils import fiss_z_to_name, periodic_table
 
+# OpenMC warning for missing uncertainties
+
+import warnings
+warnings.filterwarnings("ignore", "Using UFloat objects with std_dev==0")
+
 # reader of fission yields (via openmc)
 
 
@@ -78,19 +83,7 @@ def fission_fragments(nfy):
             element, a = match.groups()
             a = int(a)
             z = int(periodic_table[element])
-            proba_str = str(value)
-
-            if proba_str.startswith("(") and "e" in proba_str:
-                # read format : "(X+/-Y)e-Z"
-                base, exposant = proba_str.split("e")
-                base = base.strip("()")
-                x_str, _ = base.split("+/-")
-                proba_float = float(x_str) * 10 ** int(exposant)
-            else:
-                # read format: "X+/-Y"
-                x_str, _ = proba_str.split("+/-")
-                proba_float = float(x_str)
-
+            proba_float = value.n if hasattr(value, "nominal_value") else float(value)
             ff.append([a, z, proba_float])
     
     # merging isomeric (metastables) states
