@@ -1,6 +1,7 @@
 __pycache__/
 
 .DS_Store
+.pytest_cache
 
 *.png
 
@@ -12,5 +13,4 @@ build/
 docs/
 env/
 venv/
-
-ffdd.egg-info
+ffdd.egg-info/
