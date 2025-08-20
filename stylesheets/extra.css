@@ -1,0 +1,17 @@
+/* Inline code très sobre, pas de cadre */
+[data-md-color-scheme="slate"] code {
+  background-color: transparent !important;
+  color: #ECEFF1 !important;
+  padding: 0.1em 0.2em;
+  font-family: 'Fira Code', monospace;
+  font-weight: 400;
+}
+
+/* Bloc de code avec cadre subtil uniquement */
+[data-md-color-scheme="slate"] pre {
+  background-color: transparent !important;
+  border: 1px solid rgba(236, 239, 241, 0.2); /* cadre léger */
+  border-radius: 4px;
+  padding: 0.5em 0.6em;
+  box-shadow: none !important;
+}

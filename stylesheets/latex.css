@@ -1,0 +1,57 @@
+/* Text */
+.md-typeset {
+  text-align: justify;
+  font-size: 0.8rem;
+  line-height: 1.6;
+  max-width: 1000px;
+  margin-left: 0px;
+  margin: auto;
+}
+
+/* Titles */
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3 {
+  text-align: left;
+  font-weight: bold;
+  margin-top: 2em;
+  margin-bottom: 0.8em;
+}
+
+/* Sections sep */
+.md-typeset p {
+  margin-bottom: 1em;
+}
+.md-main__inner {
+  padding-bottom: 3rem;
+}
+/* Lists */
+.md-typeset ul li,
+.md-typeset ol li {
+  margin-bottom: 0.5em;
+  line-height: 1.5;
+}
+
+/* Top space */
+
+.md-typeset h1 {
+  margin-top: 2rem;
+}
+.md-typeset h1 {
+  margin-bottom: 2rem;
+}
+
+/* Code blocks */
+.md-typeset code, .md-typeset pre {
+  font-family: "Roboto Mono", monospace;
+  font-size: 0.8rem;
+  background: #f5f5f5;
+  border-radius: 4px;
+  padding: 0.2em 0.4em;
+}
+
+/* Formulas */
+mjx-container[jax="CHTML"][display="true"] {
+  margin: 1em auto;
+  text-align: center;
+}
