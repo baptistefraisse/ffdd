@@ -28,10 +28,10 @@ def tke(ah, zh, al, zl, beta = 0.2):
     with the simple model of two charged spheres in contact.
 
     Args:
-        Ah (int): Mass number of the heavy fragment.
-        Zh (int): Charge number of the heavy fragment.
-        Al (int): Mass number of the light fragment.
-        Zl (int): Charge number of the light fragment.
+        ah (int): Mass number of the heavy fragment.
+        zh (int): Charge number of the heavy fragment.
+        al (int): Mass number of the light fragment.
+        zl (int): Charge number of the light fragment.
         beta (float): Quadrupolar deformation coefficient.
 
     Returns:

@@ -1,3 +1,13 @@
+Metadata-Version: 2.4
+Name: ffdd
+Version: 0.1.0
+Summary: Fission Fragments Decay for Dummies
+Author-email: Baptiste Fraïsse <fraisse@cua.edu>
+License: MIT
+Project-URL: Homepage, https://github.com/baptistefraisse/ffdd
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
 # **FFDD: Fission Fragments Decay for Dummies**  
 
 It is often said that the discovery of nuclear fission, in 1939, changed the course of human history. But the true breakthrough was the realization that fission releases neutrons, unlocking the possibility of self-sustaining chain reactions and nuclear reactors. 
