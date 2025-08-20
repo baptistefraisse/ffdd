@@ -4,7 +4,7 @@ It is often said that the discovery of nuclear fission, in 1939, changed the cou
 
 This raises a fundamental question: **Why does nuclear fission release neutrons at all?**
 
-**FFDD** is a lightweight and educational toolbox designed to **simulate neutron emission in fission**. Its purpose is **pedagogical**: it aims to help physics students understand the basic mechanisms behind neutron emissions in nuclear fission, and to perform **simple but reasonably accurate predictions of neutron multiplicity**.
+**FFDD** is a lightweight and educational Python toolbox designed to **simulate neutron emission in fission**. Its purpose is **pedagogical**: it aims to help physics students understand the basic mechanisms behind neutron emissions in nuclear fission, and to perform **simple but reasonably accurate predictions of neutron multiplicity**.
 
 
 FFDD documentation (installation, quick start, and concepts) is available on: https://baptistefraisse.github.io/ffdd/
