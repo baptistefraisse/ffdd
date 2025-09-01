@@ -18,7 +18,7 @@
       
       
       <link rel="icon" href="../logo.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.16">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.17">
     
     
       
@@ -435,22 +435,24 @@
 
 
 <h1 id="installation">Installation</h1>
-<p>To install the <strong>FFDD</strong> package, clone the github repository.</p>
+<p>To install the <strong>FFDD</strong> package, first clone the github repository.</p>
 <pre><code class="language-bash">git clone https://github.com/baptistefraisse/ffdd.git
+cd ffdd
 </code></pre>
-<p><strong>FFDD</strong> uses <strong>OpenMC</strong> to read the fission yields data librairies (ENDF/BVIII.0). OpenMC can be installed via pip.</p>
-<pre><code class="language-bash">pip install openmc
+<p>To install the <strong>FFDD</strong> dependencies—especially <strong>OpenMC</strong> to read the fission yield data libraries—it is recommended to create and activate a virtual environment, then install all dependencies from the <code>requirements.txt</code> file:</p>
+<pre><code class="language-bash">python3 -m venv .venv
+source .venv/bin/activate   # Linux or macOS
+.venv\Scripts\Activate      # Windows
+pip install -r requirements.txt
 </code></pre>
-<p>Alternatively, a virtual environment for OpenMC can be created, then activated.</p>
-<pre><code class="language-bash">conda activate openmc_env
-</code></pre>
+<p>Alternatively, you may use <strong>conda</strong> to create the virtual environment if preferred.</p>
 <h1 id="use">Use</h1>
-<p>To use <strong>FFDD</strong>, install the package within the repository.</p>
+<p>To use <strong>FFDD</strong>, install the package within the repository in editable mode.</p>
 <pre><code class="language-bash">cd ffdd
 pip install -e .
 </code></pre>
 <h1 id="examples">Examples</h1>
-<p>To launch the examples, use python3 command in the example folder.</p>
+<p>To launch the example, or your own script, use the <strong>python3</strong> command in the same folder.</p>
 <pre><code class="language-bash">cd ffdd/example
 python3 example.py
 </code></pre>
@@ -502,10 +504,10 @@ python3 example.py
     
     
       
-      <script id="__config" type="application/json">{"base": "..", "features": ["content.code.copy", "content.code.annotate"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "..", "features": ["content.code.copy", "content.code.annotate"], "search": "../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../assets/javascripts/bundle.50899def.min.js"></script>
+      <script src="../assets/javascripts/bundle.92b07e13.min.js"></script>
       
         <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
       
