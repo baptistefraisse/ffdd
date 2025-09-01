@@ -22,6 +22,20 @@ Clone the repository and install in editable mode:
 ```bash
 git clone https://github.com/baptistefraisse/ffdd.git
 cd ffdd
+```
+
+Create a virtual environment and install dependencies:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate # if Linux or MacOS
+.venv\Scripts\Activate # if Windows
+pip install -r requirements.txt
+```
+
+Install FFDD in editable mode:
+
+```bash
 pip install -e .
 pip show ffdd
 ```
