@@ -6,6 +6,7 @@ __pycache__/
 *.png
 
 mkdocs.yml
+notes.txt
 
 archives/
 build/

@@ -24,7 +24,7 @@ git clone https://github.com/baptistefraisse/ffdd.git
 cd ffdd
 ```
 
-Create a virtual environment and install dependencies:
+Create a virtual environment and install dependencies (you may also use conda if preferred):
 
 ```bash
 python3 -m venv .venv
