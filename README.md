@@ -17,7 +17,7 @@ While the toolbox captures key features of fission fragment decay, **many advanc
 
 ## Quick start
 
-Clone the repository and install in editable mode:
+Clone the repository:
 
 ```bash
 git clone https://github.com/baptistefraisse/ffdd.git
