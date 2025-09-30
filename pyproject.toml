@@ -1,27 +1,38 @@
 [project]
 name = "ffdd"
 version = "0.1.0"
-description = "Fission Fragments Decay for Dummies"
-authors = [
-    { name="Baptiste Fraïsse", email="fraisse@cua.edu" }
-]
+description = "FFDD - Fission Fragments Decay for Dummies"
 readme = "README.md"
+requires-python = ">=3.10"
 license = { text = "MIT" }
-requires-python = ">=3.8"
+authors = [{ name = "Baptiste Fraïsse", email = "fraisse@cua.edu" }]
+author = "Baptiste Fraïsse"
+author_email = "fraisse@cua.edu"
+
+dependencies = [
+  "numpy>=2.0",
+  "matplotlib>=3.8",
+  "pandas>=2.2",
+  "openmc>=0.13.3"
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "pytest-cov", "ruff", "black", "mypy", "pytest-mpl"]
+docs = ["mkdocs-material", "mkdocstrings-python"]
 
 [project.urls]
-"Homepage" = "https://github.com/baptistefraisse/ffdd"
+Homepage = "https://github.com/baptistefraisse/ffdd"
+Documentation = "https://baptistefraisse.github.io/ffdd/"
 
 [build-system]
 requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
-dependencies = [
-    "numpy>=2.3.2",
-    "matplotlib>=3.10.5",
-    "pandas>=2.3.1",
-    "openmc>=0.13.3"
-]
-
 [tool.setuptools]
-packages = ["ffdd"]
+packages = { find = { include = ["ffdd*"] } }
+
+[tool.setuptools.package-data]
+ffdd = ["data/**/*"]
+
+[tool.ruff]
+line-length = 100

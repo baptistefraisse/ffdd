@@ -3,3 +3,4 @@ numpy==2.3.2
 pandas==2.3.2
 Pillow==11.3.0
 pytest==8.4.1
+openmc>=0.13.3
