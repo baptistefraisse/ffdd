@@ -11,7 +11,6 @@ sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')
 from ffdd.tke import tke
 from ffdd.utils import z_to_name
 from ffdd.yields import read_fission_yields, fission_fragments
-plt.rcParams['font.family'] = 'Times New Roman'
 
 # plot function
 
