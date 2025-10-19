@@ -6,13 +6,11 @@ readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "MIT" }
 authors = [{ name = "Baptiste Fraïsse", email = "fraisse@cua.edu" }]
-author = "Baptiste Fraïsse"
-author_email = "fraisse@cua.edu"
 
 dependencies = [
-  "numpy>=2.0",
-  "matplotlib>=3.8",
-  "pandas>=2.2",
+  "matplotlib>=3.5",
+  "numpy>=1.23",
+  "pandas>=1.5",
   "openmc>=0.13.3"
 ]
 
