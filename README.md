@@ -27,10 +27,8 @@ cd ffdd
 Create a virtual environment and install dependencies (you may also use conda if preferred):
 
 ```bash
-python3 -m venv .venv
-source .venv/bin/activate # if Linux or MacOS
-.venv\Scripts\Activate # if Windows
-pip install -r requirements.txt
+conda env create -f environment.yml
+conda activate ffdd
 ```
 
 Install FFDD in editable mode:
