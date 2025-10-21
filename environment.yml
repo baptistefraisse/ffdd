@@ -1,0 +1,11 @@
+name: ffdd
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - openmc
+  - matplotlib
+  - numpy
+  - pandas
+  - pillow
+  - pytest

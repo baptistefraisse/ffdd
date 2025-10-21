@@ -1,6 +1,0 @@
-matplotlib>=3.5
-numpy>=1.23
-pandas>=1.5
-Pillow>=9.0
-pytest>=7
-openmc>=0.13.3
