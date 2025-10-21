@@ -16,3 +16,4 @@ env/
 venv/
 .venv/
 ffdd.egg-info/
+requirements.txt
