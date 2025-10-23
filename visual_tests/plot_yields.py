@@ -8,7 +8,7 @@ import sys
 import os
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from ffdd.yields import read_fission_yields, fission_fragments
-from ffdd.utils import z_to_name
+from ffdd.utils import fiss_z_to_name
 
 # plot function
 
@@ -86,7 +86,7 @@ def plot_yields(a_target, z_target):
 
     # saving
 
-    figure_file_name = f'plot_yields_{a_target}{z_to_name[z_target]}.png'
+    figure_file_name = f'plot_yields_{a_target}{fiss_z_to_name[z_target]}.png'
     plt.savefig(figure_file_name)
 
     # return figure file name 
