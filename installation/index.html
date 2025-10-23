@@ -439,11 +439,10 @@
 <pre><code class="language-bash">git clone https://github.com/baptistefraisse/ffdd.git
 cd ffdd
 </code></pre>
-<p>To install the <strong>FFDD</strong> dependencies—especially <strong>OpenMC</strong> to read the fission yield data libraries—it is recommended to create and activate a virtual environment with conda, then install all dependencies from the <code>environment.yml</code> file:</p>
+<p>To install the <strong>FFDD</strong> dependencies—especially <strong>OpenMC</strong> to read the fission yield data libraries—it is recommended to create and activate a virtual environment with <strong>conda</strong>, then install all dependencies from the <code>environment.yml</code> file:</p>
 <pre><code class="language-bash">conda env create -f environment.yml
 conda activate ffdd
 </code></pre>
-<p>Alternatively, you may use <strong>conda</strong> to create the virtual environment if preferred.</p>
 <h1 id="use">Use</h1>
 <p>With the virtual environment activated, install FFDD in editable mode from the repository root (the folder containing <code>pyproject.toml</code>):</p>
 <pre><code class="language-bash">pip install -e .
