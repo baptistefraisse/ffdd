@@ -9,7 +9,7 @@ import os
 from collections import defaultdict
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from ffdd.tke import tke
-from ffdd.utils import z_to_name
+from ffdd.utils import fiss_z_to_name
 from ffdd.yields import read_fission_yields, fission_fragments
 
 # plot function
@@ -77,7 +77,7 @@ def plot_tke(a_target, z_target, beta):
     ax.plot(a_unique, tke_avg, color='black')
     ax.set_xlabel('A (Mass number)', fontsize=14)
     ax.set_ylabel('TKE (MeV)', fontsize=14)
-    ax.set_title(f'Total Kinetic Energy averaged on fragment mass for {a_target}{z_to_name[z_target]}+n at {energy} MeV',
+    ax.set_title(f'Total Kinetic Energy averaged on fragment mass for {a_target}{fiss_z_to_name[z_target]}+n at {energy} MeV',
                   fontsize=16)
     ax.tick_params(axis='x', labelsize=14)
     ax.tick_params(axis='y', labelsize=14)
